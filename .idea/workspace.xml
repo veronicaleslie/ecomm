@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/revature/ecomm/EcommApplicationTest.java" afterDir="false" />
+    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="just starting new project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660053861159</updated>
     </task>
+    <task id="LOCAL-00001" summary="just starting new project">
+      <created>1660164242952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660164242952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just starting new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="just starting new project" />
   </component>
 </project>
