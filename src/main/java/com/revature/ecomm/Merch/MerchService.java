@@ -58,6 +58,6 @@ public class MerchService {
     if( id == null || id.trim().equals("") || item_name == null || item_name.trim().equals("")) return false;{
         throw new InvalidRequestException("invalid item name or if. please try again");
     }
-    Merch authenticatedMerch = merchDao.authenticateMerch(id, item_name);
+    Merch authenticatedMerch = merchDao.authenticatedMerch(id, item_name);
     return authenticatedMerch;
 }

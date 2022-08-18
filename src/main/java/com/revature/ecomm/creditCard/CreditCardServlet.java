@@ -56,6 +56,6 @@ public class CreditCardServlet {
     @CrossOrigin(value = "http://localhost:3000", allowCredentials = "true")
     @DeleteMapping("/delete")
     public void deleteCreditCard(@RequestParam String CcNumber){
-        boolean newCreditCard = creditCardService.deleteCCNumber);
+        boolean newCreditCard = creditCardService.deleteCcNumber);
     }
 }

@@ -3,6 +3,7 @@ package com.revature.ecomm.order;
 import com.revature.ecomm.Merch.Merch;
 import com.revature.ecomm.Merch.MerchService;
 import com.revature.ecomm.user.User;
+import com.revature.ecomm.util.web.dto.OrderInitializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

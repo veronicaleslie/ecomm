@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="working on merch had some bugs that i fixed most of bt some still left should be finishing up soon">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/exceptions/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/exceptions/InvalidRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/exceptions/ResourcePersistanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/profile/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/profile/ProfileDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/profile/ProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/profile/ProfileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/aspects/AuthAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/aspects/ErrorExceptionAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/aspects/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/interfaces/Authable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/interfaces/Crudable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/interfaces/Servicable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/SecureEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/dto/CCInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/dto/LoginCreds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/Merch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/Merch.java" afterDir="false" />
+    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="everything is basically done need to finish figuring out errors and do more testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/dto/OrderInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/user/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660602759696</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="everything is basically done need to finish figuring out errors and do more testing">
+      <created>1660862433548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660862433548</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +132,7 @@
     <MESSAGE value="just starting new project" />
     <MESSAGE value="almost done with user still have more to do had an issue with spring annotations but took a long to realize i needed to reload the project..." />
     <MESSAGE value="working on merch had some bugs that i fixed most of bt some still left should be finishing up soon" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on merch had some bugs that i fixed most of bt some still left should be finishing up soon" />
+    <MESSAGE value="everything is basically done need to finish figuring out errors and do more testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is basically done need to finish figuring out errors and do more testing" />
   </component>
 </project>
