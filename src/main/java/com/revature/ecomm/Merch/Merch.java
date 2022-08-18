@@ -20,8 +20,10 @@ public class Merch {
     @Column(name = "item_name", nullable = false)
     private String itemName;
 
+
     @Column(name = "item_cost")
     private int cost;
     private int netWeight;
-    private int dimensions;
+    private String dimensions;
+    private boolean isFurniture;
 }

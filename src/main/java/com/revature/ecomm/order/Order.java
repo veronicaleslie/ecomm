@@ -1,5 +1,6 @@
 package com.revature.ecomm.order;
 
+import com.revature.ecomm.Merch.Merch;
 import com.revature.ecomm.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;

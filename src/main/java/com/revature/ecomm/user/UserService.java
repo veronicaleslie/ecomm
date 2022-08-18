@@ -1,5 +1,8 @@
 package com.revature.ecomm.user;
 
+import com.revature.ecomm.exceptions.AuthenticationException;
+import com.revature.ecomm.exceptions.InvalidRequestException;
+import com.revature.ecomm.exceptions.ResourcePersistanceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
