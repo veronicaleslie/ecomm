@@ -1,11 +1,11 @@
 package com.revature.ecomm.Merch;
 
-
+import com.revature.ecomm.exceptions.AuthenticationException;
 import com.revature.ecomm.exceptions.InvalidRequestException;
 import com.revature.ecomm.exceptions.ResourcePersistanceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import com.revature.ecomm.util.web.dto.MerchInitializer;
 import javax.transaction.Transactional;
 import java.util.List;
 
@@ -56,8 +56,11 @@ public class MerchService {
     }
     public Merch authenticateMerch(String id, String item_name);
     if( id == null || id.trim().equals("") || item_name == null || item_name.trim().equals("")) return false;{
-        throw new InvalidRequestException("invalid item name or if. please try again");
+        throw new InvalidRequestException("invalid item name or id. please try again");
     }
     Merch authenticatedMerch = merchDao.authenticatedMerch(id, item_name);
+    if(authenticatedMerch == null){
+        throw new AuthenticationException("");
+    }
     return authenticatedMerch;
 }

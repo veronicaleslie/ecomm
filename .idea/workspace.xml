@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="everything is basically done need to finish figuring out errors and do more testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/dto/OrderInitializer.java" afterDir="false" />
+    <list default="true" id="46871e29-9cee-450d-96f6-47a41c7d7218" name="Changes" comment="everything is basically done need to finish figuring out last few errors and do more testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/dto/MerchInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/servlets/AuthServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/util/web/servlets/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/EcommApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/Merch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/Merch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/Merch/MerchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/ecomm/creditCard/CreditCardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660862433548</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="everything is basically done need to finish figuring out last few errors and do more testing">
+      <created>1660862845956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660862845956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +146,7 @@
     <MESSAGE value="almost done with user still have more to do had an issue with spring annotations but took a long to realize i needed to reload the project..." />
     <MESSAGE value="working on merch had some bugs that i fixed most of bt some still left should be finishing up soon" />
     <MESSAGE value="everything is basically done need to finish figuring out errors and do more testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything is basically done need to finish figuring out errors and do more testing" />
+    <MESSAGE value="everything is basically done need to finish figuring out last few errors and do more testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is basically done need to finish figuring out last few errors and do more testing" />
   </component>
 </project>

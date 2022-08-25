@@ -15,8 +15,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "items")
 public class Merch {
-    private String id;
     @Id
+    private String id;
+
     @Column(name = "item_name", nullable = false)
     private String itemName;
 

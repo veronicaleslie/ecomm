@@ -8,4 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface MerchDao extends CrudRepository<Merch, String> {
     @Query(value = "FROM Merch WHERE id = :id AND item_name = item_name")
     Merch authenticateMerch(String id, String item_name);
+
+
 }

@@ -1,5 +1,7 @@
 package com.revature.ecomm.creditCard;
 
+import com.revature.ecomm.exceptions.InvalidRequestException;
+import com.revature.ecomm.exceptions.ResourcePersistanceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,6 +10,7 @@ import javax.transaction.Transactional;
 @Service
 @Transactional
 public class CreditCardService {
+    public boolean deleteCcNumber;
     private CreditCardDao creditCardDao;
     @Autowired
     public CreditCardService(CreditCardDao creditCardDao){
