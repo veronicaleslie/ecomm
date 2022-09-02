@@ -27,7 +27,7 @@ public class CreditCardServlet {
 
 
         newCC.setBalance(newCreditCard.getBalance());
-        newCC.getCcNumber(newCreditCard.getCCNumber());
+        newCC.setCcNumber(newCreditCard.getCcNumber());
         newCC.setCcName(newCreditCard.getCcName());
         newCC.setCvv(newCreditCard.getCvv());
         newCC.setExpDate(newCreditCard.getExpDate());
@@ -56,6 +56,6 @@ public class CreditCardServlet {
     @CrossOrigin(value = "http://localhost:3000", allowCredentials = "true")
     @DeleteMapping("/delete")
     public void deleteCreditCard(@RequestParam String CcNumber){
-        boolean newCreditCard = creditCardService.deleteCcNumber);
+        boolean newCreditCard = creditCardService.deleteCcNumber;
     }
 }

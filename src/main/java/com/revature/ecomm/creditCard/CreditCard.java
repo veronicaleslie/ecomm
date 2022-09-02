@@ -30,4 +30,6 @@ public class CreditCard {
     @JoinColumn(name = "User", referencedColumnName = "username")
     private User username;
 
+    public CreditCard(int i, int cvv, String bob, String expDate, int balance, User ex) {
+    }
 }

@@ -14,4 +14,8 @@ public class CCInitializer {
     private String expDate;
     private double balance;
     private String username;
+
+    public String getCcNumber() {
+        return null;
+    }
 }

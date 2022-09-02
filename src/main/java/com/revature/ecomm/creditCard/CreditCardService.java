@@ -2,6 +2,7 @@ package com.revature.ecomm.creditCard;
 
 import com.revature.ecomm.exceptions.InvalidRequestException;
 import com.revature.ecomm.exceptions.ResourcePersistanceException;
+import com.revature.ecomm.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -48,4 +49,8 @@ public class CreditCardService {
        if (newCreditCard.getCcName() == null || newCreditCard.getCcName().trim().equals("")) return false;
         return (newCreditCard.getUsername() != null || !newCreditCard.getUsername().equals(""));
    }
+
+    public User readByID(String username) {
+        return null;
+    }
 }
